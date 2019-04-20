@@ -13,5 +13,12 @@ The Front End, at first, will be made with Angular7
 ## The API
 
 I've started the API creating a dotnet project called AlmostAnAPI with the command
-`dotnet new webapi -o AlmostAnAPI`
+`dotnet new webapi -o AlmostAnAPI`.
 
+After that I've created the following classes of Domain
+
+- Post
+- Video
+- Image
+
+That allow me to create the representation of a post with videos and images as attachments.
